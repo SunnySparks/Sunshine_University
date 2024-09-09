@@ -1,4 +1,4 @@
-import "./exito.scss";
+import "./style.scss";
 import "../../styles/global.scss";
 import img from "../../images/grad.webp";
 import Fade from "react-reveal/Fade";

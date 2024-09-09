@@ -1,4 +1,4 @@
-import "./About.scss";
+import "./style.scss";
 import "../../styles/global.scss";
 import about from "../../images/about.png";
 import mision from "../../images/mision.png";
