@@ -10,13 +10,16 @@ import Footer from "./Components/Layout/Footer";
 
 const Index = () => {
   return (
-    <Layout>
+    <>
+      <Hero />
+      {/*<Layout>
       <Hero />
       <About />
       <OfertaAcademica />
       <ExitoAcademico />
       <Footer />
-    </Layout>
+    </Layout>*/}
+    </>
   );
 };
 

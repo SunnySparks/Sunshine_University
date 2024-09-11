@@ -9,7 +9,7 @@ const Footer = () => {
         <div id="footerInner">
           <div id="footerTxt">
             <p class="webfont2">
-              Esta página web es creada por Sunny Díaz - 2023
+              Esta página web es creada por Sunny Díaz - 2024
             </p>
           </div>
           <div id="footerImg">
