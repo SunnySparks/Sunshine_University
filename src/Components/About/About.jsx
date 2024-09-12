@@ -101,7 +101,7 @@ const About = () => {
       </div>
       <div id="btn">
         <div className="home-buttons webfont">
-          <Link href="/About/SaberMas">Saber Más</Link>
+          {/*<Link href="/About/SaberMas">Saber Más</Link>*/}
         </div>
       </div>
     </div>

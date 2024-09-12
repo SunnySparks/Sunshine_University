@@ -6,12 +6,12 @@ import OfertaAcademica from "./Components/OfertaAcademica/Oferta";
 import ExitoAcademico from "./Components/ExitoAcademico/Exito";
 import About from "./Components/About/About";
 import Footer from "./Components/Layout/Footer";
-//import "../../node_modules/font-awesome/css/font-awesome.min.css";
+import "../../node_modules/font-awesome/css/font-awesome.min.css";
 
 const Index = () => {
   return (
     <>
-      <Hero />
+      About
       {/*<Layout>
       <Hero />
       <About />
