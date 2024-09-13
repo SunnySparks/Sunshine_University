@@ -1,0 +1,230 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSub {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fibSub {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#inicio {
+  width: 100%;
+  background: url(../../images/daigaku.webp) no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+  @media (min-width: 768px) {
+    padding: 100px 0 100px 50px;
+  }
+  @media (min-width: 1280px) {
+    padding: 200px 0 200px 50px;
+  }
+  #layoutCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    #title {
+      color: #fff;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      h1 {
+        transition: all 0.3s ease-in-out;
+        animation: fadeIn 1.5s;
+        animation-name: fadeInBottom;
+        text-shadow: 4px 3px 0px #000, 2px 2px 2px rgba(0, 0, 0, 0);
+        text-transform: uppercase;
+        @media (min-width: 768px) {
+          font-size: 50px;
+        }
+        @media (min-width: 1440px) {
+          font-size: 70px;
+        }
+      }
+      img {
+        transition: all 0.3s ease-in-out;
+        animation: fadeIn 1.5s;
+        animation-name: fadeInBottom;
+        text-shadow: 4px 3px 0px #000, 2px 2px 2px rgba(0, 0, 0, 0);
+        text-transform: uppercase;
+        max-width: 100%;
+        width: 100px;
+        @media (min-width: 768px) {
+          width: 400px;
+        }
+        @media (min-width: 1440px) {
+          width: 500px;
+        }
+      }
+    }
+    #linksCont {
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+      align-self: center;
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        align-self: flex-start;
+      }
+      @media (min-width: 1440px) {
+        margin-top: 30px;
+      }
+      @media (min-width: 1800px) {
+        margin-top: 140px;
+      }
+      .navLink {
+        color: #fff;
+        text-decoration: none;
+        margin: 10px;
+        animation: fadeIn 4s;
+        animation-name: fibSub;
+        animation-fill-mode: both;
+        transition: all 0.3s ease-in-out;
+        //background: rgba(0, 0, 0, 0.5333333333);
+        padding: 10px;
+        border: 1px solid #fff;
+        padding: 15px;
+        background: #0000003e;
+        text-align: center;
+        position: relative;
+        @media (min-width: 768px) {
+          font-size: 25px;
+          margin: 20px 0;
+          padding: 20px;
+        }
+        @media (min-width: 1440px) {
+          font-size: 35px;
+        }
+        @media (min-width: 1800px) {
+          font-size: 45px;
+          margin: 25px 0;
+          padding: 30px;
+        }
+        &::before {
+          content: "";
+          display: block;
+          position: absolute;
+          height: 100%;
+          width: 0%;
+          background: #fff;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          z-index: -1;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          color: #000;
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+      /*.navLink{
+                position: relative;
+                padding: 20px;
+                display: block;
+                text-decoration: none;
+                text-transform: uppercase;
+                width: 100%;
+                max-width: 350px;
+                overflow: hidden;
+                margin: 10px 0;
+                display: flex;
+                justify-content: center;
+                span{
+                    position: relative;
+                    z-index: 1;
+                    color: #fff;
+                    font-size: 15px;
+                    letter-spacing: 8px;
+                }
+                .liquid{
+                    position: absolute;
+                    left: 0;
+                    top: -80px;
+                    width: 400px;
+                    height: 200px;
+                    background: #AAAAAA;
+                    //background: #4973ff;
+                    box-shadow: inset 0 0 50px rgba(0,0,0,.5);
+                    transition: 0.5s;
+                    overflow: hidden;
+                    &::before,
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        width: 120%;
+                        height: 205%;
+                        top: -8%;
+                        left: 50%;
+                        transform: translate(-50%, -75%);
+                    }
+                    &::before{
+                        border-radius: 45%;
+                        background: rgba(20, 20, 20, 1);
+                    }
+                    &::after{
+                        border-radius: 40%;
+                        background: rgba(20, 20, 20, 0.5);
+                    }
+                }
+                &:hover{
+                    .liquid{
+                        top: -130px;
+                    }
+                }
+            }*/
+    }
+  }
+}
