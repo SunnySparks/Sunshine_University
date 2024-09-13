@@ -11,13 +11,19 @@ $webfont2: "Poppins", sans-serif;
 html,
 body {
   width: 100%;
-  height: 100%;
+  //height: 100%;
   margin: 0;
   padding: 0;
   overflow: auto;
   position: absolute;
   scroll-behavior: smooth;
   background: #fff;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 main {
@@ -33,6 +39,10 @@ main {
 }
 .webfont3 {
   font-family: $webfont3;
+}
+
+.homeComponent {
+  color: #000;
 }
 
 #inicio {

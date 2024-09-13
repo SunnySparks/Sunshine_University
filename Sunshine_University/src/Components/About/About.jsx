@@ -8,7 +8,7 @@ import inv from "../../images/research.png";
 
 const About = () => {
   return (
-    <div id="AboutCont">
+    <div id="AboutCont" className="homeComponent">
       <div id="abtTitle">
         <h2 class="webfont">Sobre Nosotros</h2>
       </div>
