@@ -12,19 +12,19 @@ const Hero = () => {
           <img src={img} />
         </div>
         <div id="linksCont">
-          <div className="navLink webfont" href={`#AboutCont`}>
+          <a className="navLink webfont" href={`#AboutCont`}>
             <span>{`Sobre Nosotros`}</span>
             <div className="liquid"></div>
-          </div>
-          <div className="navLink webfont" href="#ofertaCont">
+          </a>
+          <a className="navLink webfont" href="#ofertaCont">
             <span>{`Oferta Académica`}</span>
             <div className="liquid"></div>
-          </div>
+          </a>
 
-          <div className="navLink webfont" href="#exitoCont">
+          <a className="navLink webfont" href="#exitoCont">
             <span>{`Éxito Académico`}</span>
             <div className="liquid"></div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
