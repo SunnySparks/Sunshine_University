@@ -5,6 +5,7 @@ import Oferta from "./Components/OfertaAcademica/Oferta";
 import Exito from "./Components/ExitoAcademico/Exito";
 import Footer from "./Components/Layout/Footer";
 import NavBar from "./Components/Layout/NavBar";
+import Header from "./Components/Layout/Header";
 //import About from "./Pages/About/SaberMas";
 //import Exito from "./Pages/Exito/SaberMas";
 //import Oferta from "./Pages/Oferta/SaberMas";
@@ -12,7 +13,7 @@ import NavBar from "./Components/Layout/NavBar";
 function App() {
   return (
     <>
-      <NavBar />
+      <Header />
       <Hero />
       {/*<Hero />
       <About />
