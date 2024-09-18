@@ -1,4 +1,3 @@
-//import Header from "../../Components/Layout/Header";
 import Footer from "../../Components/Layout/Footer";
 import "./styles.scss";
 import about from "../../images/about.png";
@@ -12,10 +11,9 @@ import camp from "../../images/camp.webp";
 import join from "../../images/join.webp";
 import badge from "../../images/badge.png";
 
-const SaberMas = () => {
+const About = () => {
   return (
     <>
-      {/*<Header />*/}
       <div id="dividerCont"></div>
       <div className="subTitleCont" id="aboutBanner">
         <h2 className="subpageTitle">Sobre Nosotros</h2>
@@ -176,4 +174,4 @@ const SaberMas = () => {
   );
 };
 
-export default SaberMas;
+export default About;
