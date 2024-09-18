@@ -1,15 +1,17 @@
 import "./styles/global.scss";
-import About from "./Components/About/About";
+//import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero";
-import Oferta from "./Components/OfertaAcademica/Oferta";
-import Exito from "./Components/ExitoAcademico/Exito";
+//import Oferta from "./Components/OfertaAcademica/Oferta";
+//import Exito from "./Components/ExitoAcademico/Exito";
 import Footer from "./Components/Layout/Footer";
-import SaberMas from "./Pages/About/SaberMas";
+import About from "./Pages/About/About";
+import Exito from "./Pages/Exito/Exito";
+import Oferta from "./Pages/Oferta/Oferta";
 
 function App() {
   return (
     <>
-      <SaberMas />
+      <Exito />
       {/*<Hero />
       <About />
       <Oferta />
