@@ -102,15 +102,20 @@ $webfont3: "Open Sans", sans-serif;
     margin-left: 2%;
     @media (min-width: 1024px) {
     }
-    .navLink {
-      opacity: 0;
-      transition: all 0.3s ease-in-out;
-      display: none;
-      text-decoration: none;
-      color: #fff;
-      text-transform: uppercase;
-      width: 100%;
-      max-width: 100%;
+    ul {
+      list-style: none;
+      li {
+        .navLink {
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+          display: none;
+          text-decoration: none;
+          color: #fff;
+          text-transform: uppercase;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
     }
   }
   #iconsCont {
@@ -127,19 +132,23 @@ $webfont3: "Open Sans", sans-serif;
     align-items: center;
     #navCont {
       opacity: 1;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      .navLink {
-        opacity: 1;
-        font-family: $webfont;
-        margin: 10px 0;
-        display: block;
-        font-weight: 600;
-        text-transform: capitalize;
-        margin-left: 3%;
-        &:hover {
-          letter-spacing: 3px;
+      ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        li {
+          .navLink {
+            opacity: 1;
+            font-family: $webfont;
+            margin: 10px 0;
+            display: block;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-left: 3%;
+            &:hover {
+              letter-spacing: 3px;
+            }
+          }
         }
       }
     }
@@ -148,9 +157,6 @@ $webfont3: "Open Sans", sans-serif;
       display: flex;
     }
   }
-}
-ul {
-  //display: none;
 }
 .headerTop {
   z-index: 20;
@@ -163,29 +169,37 @@ ul {
   }
   #navCont {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 20px 0;
     position: fixed;
     background: #00000088;
     @media (min-width: 1024px) {
       padding: 12px 0;
     }
-    a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-      text-transform: capitalize;
-      font-size: 13px;
-      @media (min-width: 992px) {
-        font-size: 15px;
-      }
-      @media (min-width: 1280px) {
-        font-size: 20px;
-      }
-      @media (min-width: 1800px) {
-        font-size: 25px;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      li {
+        display: flex;
+        align-items: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+          text-transform: capitalize;
+          font-size: 13px;
+          @media (min-width: 992px) {
+            font-size: 15px;
+          }
+          @media (min-width: 1280px) {
+            font-size: 20px;
+          }
+          @media (min-width: 1800px) {
+            font-size: 25px;
+          }
+        }
       }
     }
     #iconsCont {
