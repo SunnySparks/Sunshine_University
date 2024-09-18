@@ -1,17 +1,19 @@
 import "./styles/global.scss";
-//import About from "./Components/About/About";
+import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero";
-//import Oferta from "./Components/OfertaAcademica/Oferta";
-//import Exito from "./Components/ExitoAcademico/Exito";
+import Oferta from "./Components/OfertaAcademica/Oferta";
+import Exito from "./Components/ExitoAcademico/Exito";
 import Footer from "./Components/Layout/Footer";
-import About from "./Pages/About/About";
-import Exito from "./Pages/Exito/Exito";
-import Oferta from "./Pages/Oferta/Oferta";
+import NavBar from "./Components/Layout/NavBar";
+//import About from "./Pages/About/SaberMas";
+//import Exito from "./Pages/Exito/SaberMas";
+//import Oferta from "./Pages/Oferta/SaberMas";
 
 function App() {
   return (
     <>
-      <Exito />
+      <NavBar />
+      <Hero />
       {/*<Hero />
       <About />
       <Oferta />
