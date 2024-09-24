@@ -4,11 +4,10 @@ import "../../styles/global.scss";
 
 const Footer = () => {
   return (
-    <>
       <div id="footerCont">
         <div id="footerInner">
           <div id="footerTxt">
-            <p class="webfont2">
+            <p className="webfont2">
               Esta página web es creada por Sunny Díaz - 2024
             </p>
           </div>
@@ -17,7 +16,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

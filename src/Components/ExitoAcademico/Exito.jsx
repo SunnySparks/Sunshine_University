@@ -4,7 +4,7 @@ import img from "../../images/grad.webp";
 
 const ExitoAcademico = () => {
   return (
-    <div id="exitoCont">
+    <div id="exitoCont" className="homeComponent">
       <div id="exitoInner">
         <div id="exitoTitle">
           <h2 className="webfont">Éxito Académico</h2>

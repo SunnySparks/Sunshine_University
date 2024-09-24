@@ -1,6 +1,6 @@
-//import { Link } from "react-router-dom";
 import "./styles.scss";
 import img from "../../images/badge.png";
+
 const Hero = () => {
   return (
     <div id="inicio" className="homeComponent">
@@ -20,7 +20,6 @@ const Hero = () => {
             <span>{`Oferta Académica`}</span>
             <div className="liquid"></div>
           </a>
-
           <a className="navLink webfont" href="#exitoCont">
             <span>{`Éxito Académico`}</span>
             <div className="liquid"></div>

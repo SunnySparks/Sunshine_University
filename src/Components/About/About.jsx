@@ -10,10 +10,10 @@ const About = () => {
   return (
     <div id="AboutCont" className="homeComponent">
       <div id="abtTitle">
-        <h2 class="webfont">Sobre Nosotros</h2>
+        <h2 className="webfont">Sobre Nosotros</h2>
       </div>
       <div id="valorescont">
-        <div class="valinner" id="about">
+        <div className="valinner" id="about">
           <div className="title">
             <div className="titleimg">
               <img src={about} />
@@ -35,7 +35,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div class="valinner" id="mision">
+        <div className="valinner" id="mision">
           <div className="title">
             <div className="titleimg">
               <img src={mision} />
@@ -77,7 +77,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div class="valinner" id="inv">
+        <div className="valinner" id="inv">
           <div className="title">
             <div className="titleimg">
               <img src={inv} />
