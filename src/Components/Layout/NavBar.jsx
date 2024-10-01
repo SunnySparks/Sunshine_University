@@ -6,7 +6,6 @@ import Exito from "../../Pages/Exito/Exito";
 
 const NavBar = () => {
   return (
-      <BrowserRouter>
         <nav id="navCont">
           <ul>
             <li>
@@ -31,12 +30,6 @@ const NavBar = () => {
             </li>
           </ul>
         </nav>
-        <Routes>
-          <Route path="/About" element={<About />} />
-          <Route path="/Oferta" element={<Oferta />} />
-          <Route path="/Exito" element={<Exito />} />
-        </Routes>
-      </BrowserRouter>
   );
 };
 

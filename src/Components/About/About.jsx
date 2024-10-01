@@ -56,7 +56,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div class="valinner" id="prof">
+        <div className="valinner" id="prof">
           <div className="title">
             <div className="titleimg">
               <img src={prof} />

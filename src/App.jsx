@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./styles/global.scss";
 import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero";
@@ -9,14 +10,15 @@ import Header from "./Components/Layout/Header";
 function App() {
   return (
     <>
-      <Header />
-      <main>
-      <Hero />
-      <About />
-      <Oferta />
-      <Exito />
-      </main>
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/*" element={<Hero />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

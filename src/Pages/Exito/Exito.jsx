@@ -24,7 +24,7 @@ const SaberMas = () => {
       </div>
       <div id="SuccessCont">
         <div id="SuccessDesc">
-          <div class="SuccTitle">
+          <div className="SuccTitle">
             <h2>Experiencias Extracurriculares</h2>
           </div>
           <div id="Sdescription">

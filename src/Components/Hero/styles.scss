@@ -58,12 +58,12 @@
   width: 100%;
   background: url(../../images/daigaku.webp) no-repeat center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 20px;
   @media (min-width: 768px) {
-    padding: 100px 0 100px 50px;
+    padding: 100px 50px;
   }
   @media (min-width: 1280px) {
-    padding: 200px 0 200px 50px;
+    padding: 200px 50px;
   }
   #layoutCont {
     display: flex;
@@ -108,7 +108,7 @@
     #linksCont {
       display: flex;
       flex-direction: column;
-      margin-top: 150px;
+      margin-top: 50px;
       align-self: center;
       @media (max-width: 767px) {
         width: 100%;

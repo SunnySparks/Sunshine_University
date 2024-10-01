@@ -47,7 +47,7 @@ const SaberMas = () => {
             <img src={lang} />
           </div>
         </div>
-        <div class="ofSubContent">
+        <div className="ofSubContent">
           <div className="ofInner">
             <div className="ofText webfont">
               <h2>¿Por qué elegir Sunshine University?</h2>
@@ -282,7 +282,7 @@ const SaberMas = () => {
             <img src={lang} />
           </div>
         </div>
-        <div class="ofSubContent">
+        <div className="ofSubContent">
           <div className="ofInner">
             <div className="ofText webfont">
               <h2>¿Por qué elegir Sunshine University?</h2>
