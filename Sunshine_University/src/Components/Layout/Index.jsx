@@ -9,7 +9,6 @@ import Oferta from "../OfertaAcademica/Oferta";
 const Index = () => {
   return (
     <>
-      <Header />
       <Hero />
       <About />
       <Oferta />

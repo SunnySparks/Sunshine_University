@@ -1,16 +1,23 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./styles/global.scss";
-import About from "./Components/About/About";
-import Hero from "./Components/Hero/Hero";
-import Oferta from "./Components/OfertaAcademica/Oferta";
-import Exito from "./Components/ExitoAcademico/Exito";
-import Footer from "./Components/Layout/Footer";
-import Header from "./Components/Layout/Header";
 import Layout from "./Components/Layout/Index";
+import AboutSub from "./Pages/About/AboutSub";
+import OfertaSub from "./Pages/Oferta/OfertaSub";
+import ExitoSub from "./Pages/Exito/ExitoSub";
 
 function App() {
   return (
     <>
-      <Layout />
+      <BrowserRouter>
+        <main>
+          <Routes>
+            <Route path="/" element={<Layout />} />
+            <Route path="/About" element={<AboutSub />} />
+            <Route path="/Oferta" element={<OfertaSub />} />
+            <Route path="/Exito" element={<ExitoSub />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
     </>
   );
 }
