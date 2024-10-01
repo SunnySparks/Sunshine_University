@@ -5,16 +5,12 @@ import Oferta from "./Components/OfertaAcademica/Oferta";
 import Exito from "./Components/ExitoAcademico/Exito";
 import Footer from "./Components/Layout/Footer";
 import Header from "./Components/Layout/Header";
+import Layout from "./Components/Layout/Index";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <About />
-      <Oferta />
-      <Exito />
-      <Footer />
+      <Layout />
     </>
   );
 }
