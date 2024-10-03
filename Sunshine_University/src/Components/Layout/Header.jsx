@@ -12,15 +12,19 @@ const Header = () => {
 
   return (
     <div>
-      <div className={`header ${isOpen ? "open" : null}`}>
-        <button className="fancy-burger" onClick={handleToggle}>
+      <div className={`header ${isOpen ? "open" : ""}`}>
+        <button
+          className="fancy-burger"
+          onClick={handleToggle}
+          aria-expanded={isOpen}
+        >
           <span
             className={`rectangle rectangle--top rectangle--small ${
-              isOpen ? "open" : null
+              isOpen ? "open" : ""
             }`}
           ></span>
           <span
-            className={`rectangle rectangle--middle ${isOpen ? "open" : null}`}
+            className={`rectangle rectangle--middle ${isOpen ? "open" : ""}`}
           ></span>
           <span
             className={`rectangle rectangle--bottom rectangle--small ${
@@ -28,7 +32,7 @@ const Header = () => {
             }`}
           ></span>
         </button>
-        <span className={`box ${isOpen ? "open" : null}`}>
+        <span className={`box ${isOpen ? "open" : ""}`}>
           <NavBar />
         </span>
       </div>
