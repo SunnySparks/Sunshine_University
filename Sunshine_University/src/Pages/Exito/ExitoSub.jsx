@@ -1,4 +1,4 @@
-//import Header from "../../Components/Layout/Header";
+import Header from "../../Components/Layout/Header";
 import Footer from "../../Components/Layout/Footer";
 import "./styles.scss";
 import badge from "../../images/badge.png";
@@ -16,7 +16,7 @@ import fun from "../../images/fun.webp";
 const SaberMas = () => {
   return (
     <>
-      {/*<Header />*/}
+      <Header />
       <div id="dividerCont"></div>
       <div className="subTitleCont" id="aboutBanner">
         <h2 className="subpageTitle">Exito y Logros</h2>

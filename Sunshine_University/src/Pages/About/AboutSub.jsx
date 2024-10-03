@@ -1,3 +1,4 @@
+import Header from "../../Components/Layout/Header";
 import Footer from "../../Components/Layout/Footer";
 import "./styles.scss";
 import about from "../../images/about.png";
@@ -14,6 +15,7 @@ import badge from "../../images/badge.png";
 const About = () => {
   return (
     <>
+      <Header />
       <div id="dividerCont"></div>
       <div className="subTitleCont" id="aboutBanner">
         <h2 className="subpageTitle">Sobre Nosotros</h2>
