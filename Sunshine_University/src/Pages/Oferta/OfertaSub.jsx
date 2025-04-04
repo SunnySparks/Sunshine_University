@@ -3,6 +3,15 @@ import Footer from "../../Components/Layout/Footer";
 import "./styles.scss";
 import badge from "../../images/badge.png";
 import lang from "../../images/lang.webp";
+import lang1 from "../../images/lang1.webp";
+import lang2 from "../../images/lang2.webp";
+import lang3 from "../../images/lang3.webp";
+import lang4 from "../../images/lang4.webp";
+import lang5 from "../../images/lang5.webp";
+import nur1 from "../../images/nur1.webp";
+import nur2 from "../../images/nur2.webp";
+import nur3 from "../../images/nur3.webp";
+import nur4 from "../../images/nur4.webp";
 
 const SaberMas = () => {
   return (
@@ -112,6 +121,9 @@ const SaberMas = () => {
                 </li>
               </ol>
             </div>
+            <div className="ofPic">
+              <img src={lang1} />
+            </div>
           </div>
           <div className="ofInner">
             <div className="ofText webfont">
@@ -163,6 +175,9 @@ const SaberMas = () => {
                 </li>
               </ul>
             </div>
+            <div className="ofPic">
+              <img src={lang2} />
+            </div>
           </div>
           <div className="ofInner">
             <div className="ofText webfont">
@@ -194,6 +209,9 @@ const SaberMas = () => {
                 </li>
               </ul>
             </div>
+            <div className="ofPic">
+              <img src={lang3} />
+            </div>
           </div>
           <div className="ofInner">
             <div className="ofText webfont">
@@ -223,6 +241,9 @@ const SaberMas = () => {
                   <p>Entrevista (en algunos casos)</p>
                 </li>
               </ul>
+            </div>
+            <div className="ofPic">
+              <img src={lang4} />
             </div>
           </div>
           <div className="ofInner">
@@ -345,6 +366,9 @@ const SaberMas = () => {
                 </li>
               </ol>
             </div>
+            <div className="ofPic">
+              <img src={nur1} />
+            </div>
           </div>
           <div className="ofInner">
             <div className="ofText webfont">
@@ -396,6 +420,9 @@ const SaberMas = () => {
                 </li>
               </ul>
             </div>
+            <div className="ofPic">
+              <img src={nur2} />
+            </div>
           </div>
           <div className="ofInner">
             <div className="ofText webfont">
@@ -429,6 +456,9 @@ const SaberMas = () => {
                 </li>
               </ul>
             </div>
+            <div className="ofPic">
+              <img src={nur3} />
+            </div>
           </div>
           <div className="ofInner">
             <div className="ofText webfont">
@@ -458,6 +488,9 @@ const SaberMas = () => {
                   <p>Entrevista (en algunos casos)</p>
                 </li>
               </ul>
+            </div>
+            <div className="ofPic">
+              <img src={nur2} />
             </div>
           </div>
           <div className="ofInner">
