@@ -184,12 +184,16 @@ $webfont3: "Open Sans", sans-serif;
       li {
         display: flex;
         align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
         a {
           color: #fff;
           text-decoration: none;
           font-weight: 600;
           text-transform: capitalize;
           font-size: 13px;
+          transition: all 0.3s ease-in-out;
           @media (min-width: 992px) {
             font-size: 15px;
           }
@@ -198,6 +202,9 @@ $webfont3: "Open Sans", sans-serif;
           }
           @media (min-width: 1800px) {
             font-size: 25px;
+          }
+          &:hover {
+            letter-spacing: 2px;
           }
         }
       }

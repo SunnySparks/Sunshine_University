@@ -5,11 +5,13 @@ import AboutSub from "./Pages/About/AboutSub";
 import OfertaSub from "./Pages/Oferta/OfertaSub";
 import ExitoSub from "./Pages/Exito/ExitoSub";
 import Header from "./Components/Layout/Header";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <main>
           <Routes>
             <Route path="/" element={<Layout />} />
