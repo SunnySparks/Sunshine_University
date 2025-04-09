@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./Styles/global.scss";
+import "./styles/global.scss";
 import Layout from "./Components/Layout/Index";
 import AboutSub from "./Pages/About/AboutSub";
 import OfertaSub from "./Pages/Oferta/OfertaSub";
