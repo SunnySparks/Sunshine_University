@@ -161,7 +161,6 @@ $webfont3: "Open Sans", sans-serif;
 .headerTop {
   z-index: 20;
   position: relative;
-  padding: 20px 0;
   @media (max-width: 767px) {
     display: none;
   }
@@ -182,6 +181,7 @@ $webfont3: "Open Sans", sans-serif;
       align-items: center;
       list-style: none;
       margin: 0;
+      padding: 0;
       li {
         display: flex;
         align-items: center;
