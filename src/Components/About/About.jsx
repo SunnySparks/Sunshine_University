@@ -1,6 +1,5 @@
+import { Link } from "react-router-dom";
 import "./styles.scss";
-/*import Fade from "react-reveal/Fade";
-import { Link } from "gatsby";*/
 import about from "../../images/about.png";
 import mision from "../../images/mision.png";
 import prof from "../../images/professor.png";
@@ -102,7 +101,7 @@ const About = () => {
       </div>
       <div id="btn">
         <div className="home-buttons webfont">
-          {/*<Link href="/About/SaberMas">Saber Más</Link>*/}
+          <Link to="/About">Saber Más</Link>
         </div>
       </div>
     </div>

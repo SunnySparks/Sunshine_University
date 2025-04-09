@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.scss";
 import "../../styles/global.scss";
 import img from "../../images/grad.webp";
@@ -42,7 +43,7 @@ const ExitoAcademico = () => {
           </p>
         </div>
         <div className="home-buttons webfont">
-          {/*<Link href="/Exito/SaberMas">Saber Más</Link>*/}
+          <Link to="/Exito">Saber Más</Link>
         </div>
       </div>
     </div>

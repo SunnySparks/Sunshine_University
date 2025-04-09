@@ -18,7 +18,7 @@ $webfont2: "Poppins", sans-serif;
 }
 #dividerCont {
   @media (min-width: 1024px) {
-    padding-top: 120px;
+    //padding-top: 120px;
   }
 }
 .ofCont {
@@ -121,12 +121,14 @@ $webfont2: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
     .ofInner {
-      padding: 20px;
-      margin: 20px 0;
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column-reverse;
       @media (max-width: 991px) {
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
       }
       .ofText {
+        padding: 20px;
         h2 {
           margin: 0;
           @media (min-width: 768px) {
@@ -180,6 +182,16 @@ $webfont2: "Poppins", sans-serif;
           @media (min-width: 1800px) {
             font-size: 30px;
           }
+        }
+      }
+      .ofPic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+          max-width: 100%;
         }
       }
     }

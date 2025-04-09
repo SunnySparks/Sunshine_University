@@ -1,7 +1,6 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.scss";
 import "../../styles/global.scss";
-//simport { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import titleimg from "../../images/offer.webp";
 
@@ -293,7 +292,7 @@ const OfertaAcademica = () => {
             </div>
           </div>
           <div className="home-buttons webfont">
-            {/*<Link href="/Oferta/SaberMas">Saber Más</Link>*/}
+            <Link to="/Oferta">Saber Más</Link>
           </div>
         </div>
       </div>

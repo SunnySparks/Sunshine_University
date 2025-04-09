@@ -1,23 +1,25 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./styles/global.scss";
-import About from "./Components/About/About";
-import Hero from "./Components/Hero/Hero";
-import Oferta from "./Components/OfertaAcademica/Oferta";
-import Exito from "./Components/ExitoAcademico/Exito";
-import Footer from "./Components/Layout/Footer";
+import Layout from "./Components/Layout/Index";
+import AboutSub from "./Pages/About/AboutSub";
+import OfertaSub from "./Pages/Oferta/OfertaSub";
+import ExitoSub from "./Pages/Exito/ExitoSub";
 import Header from "./Components/Layout/Header";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <ScrollToTop />
         <main>
           <Routes>
-            <Route path="/*" element={<Hero />} />
+            <Route path="/" element={<Layout />} />
+            <Route path="/About" element={<AboutSub />} />
+            <Route path="/Oferta" element={<OfertaSub />} />
+            <Route path="/Exito" element={<ExitoSub />} />
           </Routes>
         </main>
-        <Footer />
       </BrowserRouter>
     </>
   );
