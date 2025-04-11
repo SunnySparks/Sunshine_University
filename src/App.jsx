@@ -4,7 +4,7 @@ import Layout from "./Components/Layout/Index";
 import AboutSub from "./Pages/About/AboutSub";
 import OfertaSub from "./Pages/Oferta/OfertaSub";
 import ExitoSub from "./Pages/Exito/ExitoSub";
-import Header from "./Components/Layout/Header";
+import "./styles/global.scss";
 import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
