@@ -1,8 +1,7 @@
 import { useState } from "react";
 import NavBar from "./NavBar";
 import "./styles.scss";
-
-import "../../styles/global.scss";
+import "@/styles/global.scss";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
