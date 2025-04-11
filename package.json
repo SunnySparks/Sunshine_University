@@ -9,6 +9,7 @@
     "deploy": "vite build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
+    "build-gh": "BUILD_TARGET=gh-pages vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
