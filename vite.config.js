@@ -4,17 +4,15 @@ import path from "path";
 
 const isGitHubPages = process.env.BUILD_TARGET === "gh-pages";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: isGitHubPages ? "/Sunshine_University/" : "/",
+  base: isGitHubPages ? "/Sunshine_University/" : "./",
   plugins: [react()],
   build: {
-    outDir: "dist", // Ensure the build is outputting to 'dist' folder
+    outDir: "dist",
   },
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"), // '@' now points to 'src'
+      "@": path.resolve(__dirname, "./src"),
     },
   },
 });

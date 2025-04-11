@@ -9,7 +9,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Sunshine_University/">
         <ScrollToTop />
         <main>
           <Routes>
