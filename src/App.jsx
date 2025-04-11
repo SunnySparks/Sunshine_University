@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./Styles/global.scss";
 import Layout from "./Components/Layout/Index";
 import AboutSub from "./Pages/About/AboutSub";
 import OfertaSub from "./Pages/Oferta/OfertaSub";
 import ExitoSub from "./Pages/Exito/ExitoSub";
-import "./styles/global.scss";
+import "@/styles/global.scss"; // ✅ this uses your alias
+
 import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
