@@ -55,12 +55,12 @@
 }
 
 #inicio {
-  width: 100%;
   background: url(../../images/daigaku.webp) no-repeat center;
   background-size: cover;
   padding: 100px 20px;
   @media (min-width: 768px) {
     padding: 100px 50px;
+    width: 100%;
   }
   @media (min-width: 1280px) {
     padding: 200px 50px;

@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div id="headercont">
       <div className={`header ${isOpen ? "open" : ""}`}>
         <button
           className="fancy-burger"
